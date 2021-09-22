@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.3)  15 SEP 2021 19:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.3)  22 SEP 2021 22:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -291,41 +291,47 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 37.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
 
 
 (f:/texlive/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 37.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
 
 
 (f:/texlive/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 9
-4.
+<fig_fp.png, id=1, 337.26pt x 188.95593pt>
+File: fig_fp.png Graphic file (type png)
+<use fig_fp.png>
+Package pdftex.def Info: fig_fp.png  used on input line 52.
+(pdftex.def)             Requested size: 252.94437pt x 141.71658pt.
+<fig_fm.png, id=2, 394.47375pt x 225.09094pt>
+File: fig_fm.png Graphic file (type png)
+<use fig_fm.png>
+Package pdftex.def Info: fig_fm.png  used on input line 58.
+(pdftex.def)             Requested size: 256.40489pt x 146.30736pt.
+ [1{f:/texlive/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-(f:/texlive/texlive/2021/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [1{f:/texlive/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
+ <./fig_fp.png> <./fig_fm.png>]
+<fig_pl.png, id=13, 365.86688pt x 232.61906pt>
+File: fig_pl.png Graphic file (type png)
+<use fig_pl.png>
+Package pdftex.def Info: fig_pl.png  used on input line 70.
+(pdftex.def)             Requested size: 274.39948pt x 174.46385pt.
+<fig_tp.png, id=14, 466.74374pt x 286.82156pt>
+File: fig_tp.png Graphic file (type png)
+<use fig_tp.png>
+Package pdftex.def Info: fig_tp.png  used on input line 93.
+(pdftex.def)             Requested size: 266.04669pt x 163.48997pt.
+ [2 <./fig_pl.png> <./fig_tp.png>]
+Underfull \hbox (badness 1454) in paragraph at lines 112--113
+[]\OT1/ptm/m/n/10 Use over-leaf to write la-tex doc-u-ments on-line with
+ []
 
-]
-<fig1.png, id=14, 82.1469pt x 71.5473pt>
-File: fig1.png Graphic file (type png)
-<use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 199.
-(pdftex.def)             Requested size: 82.14668pt x 71.5471pt.
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 2
-10.
-
-(f:/texlive/texlive/2021/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 210.
- [2]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -337,31 +343,27 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3 <./fig1.png (PNG copy)>] (./conference_101719.aux) ) 
+[3
+
+] (./conference_101719.aux) ) 
 Here is how much of TeX's memory you used:
- 3971 strings out of 478994
- 57601 string characters out of 5858184
- 368074 words of memory out of 5000000
- 21414 multiletter control sequences out of 15000+600000
- 445359 words of font info for 104 fonts, out of 8000000 for 9000
+ 3906 strings out of 478994
+ 56765 string characters out of 5858184
+ 360062 words of memory out of 5000000
+ 21367 multiletter control sequences out of 15000+600000
+ 434496 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,11n,74p,591b,293s stack positions out of 5000i,500n,10000p,200000b,80000s
-{f:/texlive/texlive/2021
-/texmf-dist/fonts/enc/dvips/base/8r.enc}<f:/texlive/texlive/2021/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi10.pfb><f:/texlive/texlive/2021/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr10.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr6.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr7.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy7.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/type1/urw
-/courier/ucrr8a.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/type1/urw/times/u
-tmb8a.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb
-><f:/texlive/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><f:/texli
-ve/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_101719.pdf (3 pages, 124581 bytes).
+ 68i,8n,74p,583b,257s stack positions out of 5000i,500n,10000p,200000b,80000s
+{f:/texlive/texlive/2021/texmf-dist/fonts/enc/dvip
+s/base/8r.enc}<f:/texlive/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy7.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pf
+b><f:/texlive/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><f:/tex
+live/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><f:/texlive/texli
+ve/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on conference_101719.pdf (3 pages, 260665 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 39 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
