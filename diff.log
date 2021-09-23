@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.3)  23 SEP 2021 10:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.3)  23 SEP 2021 10:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**conference_101719.tex
-(./conference_101719.tex
+**diff.tex
+(./diff.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (./IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
@@ -113,7 +113,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \c@IEEEbiography=\count193
 \@IEEEtranrubishbin=\box48
 )
-** ATTENTION: Overriding command lockouts (line 2).
+** ATTENTION: Overriding command lockouts (line 5).
 (f:/texlive/texlive/2021/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
@@ -245,43 +245,99 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
+(f:/texlive/texlive/2021/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box51
+\UL@hyphenbox=\box52
+\UL@skip=\skip55
+\UL@hook=\toks22
+\UL@height=\dimen173
+\UL@pe=\count276
+\UL@pixel=\dimen174
+\ULC@box=\box53
+Package: ulem 2019/11/18
+\ULdepth=\dimen175
+)
+(f:/texlive/texlive/2021/texmf-dist/tex/latex/oberdiek/settobox.sty
+Package: settobox 2016/05/16 v1.5 Assign box dimensions to length registers (HO
+)
+)
+(f:/texlive/texlive/2021/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+\DIFdelgraphicsbox=\box54
+\DIFdelgraphicswidth=\skip56
+\DIFdelgraphicsheight=\skip57
+LaTeX Info: Redefining \DIFaddbegin on input line 64.
+LaTeX Info: Redefining \DIFaddend on input line 65.
+LaTeX Info: Redefining \DIFdelbegin on input line 66.
+LaTeX Info: Redefining \DIFdelend on input line 67.
+LaTeX Info: Redefining \DIFaddbeginFL on input line 72.
+LaTeX Info: Redefining \DIFaddendFL on input line 73.
+LaTeX Info: Redefining \DIFdelbeginFL on input line 74.
+LaTeX Info: Redefining \DIFdelendFL on input line 75.
+
+(f:/texlive/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count277
+\lst@gtempboxa=\box55
+\lst@token=\toks23
+\lst@length=\count278
+\lst@currlwidth=\dimen176
+\lst@column=\count279
+\lst@pos=\count280
+\lst@lostspace=\dimen177
+\lst@width=\dimen178
+\lst@newlines=\count281
+\lst@lineno=\count282
+\lst@maxwidth=\dimen179
+
+(f:/texlive/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count283
+\lst@skipnumbers=\count284
+\lst@framebox=\box56
+)
+(f:/texlive/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
 (f:/texlive/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count276
-\l__pdf_internal_box=\box51
+\l__color_backend_stack_int=\count285
+\l__pdf_internal_box=\box57
 )
-(./conference_101719.aux)
-\openout1 = `conference_101719.aux'.
+(./diff.aux)
+\openout1 = `diff.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
 
 -- Lines per column: 56 (exact).
 (f:/texlive/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count277
-\scratchdimen=\dimen173
-\scratchbox=\box52
-\nofMPsegments=\count278
-\nofMParguments=\count279
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count280
-\MPscratchDim=\dimen174
-\MPnumerator=\count281
-\makeMPintoPDFobject=\count282
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count286
+\scratchdimen=\dimen180
+\scratchbox=\box58
+\nofMPsegments=\count287
+\nofMParguments=\count288
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count289
+\MPscratchDim=\dimen181
+\MPnumerator=\count290
+\makeMPintoPDFobject=\count291
+\everyMPtoPDFconversion=\toks25
 ) (f:/texlive/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -291,14 +347,15 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
-
+\c@lstlisting=\count292
+LaTeX Font Info:    Trying to load font information for U+msa on input line 124
+.
 
 (f:/texlive/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 124
+.
 
 (f:/texlive/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -306,12 +363,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <fig_fp.png, id=1, 337.26pt x 188.95593pt>
 File: fig_fp.png Graphic file (type png)
 <use fig_fp.png>
-Package pdftex.def Info: fig_fp.png  used on input line 52.
+Package pdftex.def Info: fig_fp.png  used on input line 134.
 (pdftex.def)             Requested size: 252.94437pt x 141.71658pt.
 <fig_fm.png, id=2, 394.47375pt x 225.09094pt>
 File: fig_fm.png Graphic file (type png)
 <use fig_fm.png>
-Package pdftex.def Info: fig_fm.png  used on input line 58.
+Package pdftex.def Info: fig_fm.png  used on input line 140.
 (pdftex.def)             Requested size: 256.40489pt x 146.30736pt.
  [1{f:/texlive/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -320,20 +377,22 @@ Package pdftex.def Info: fig_fm.png  used on input line 58.
 <fig_pl.png, id=13, 365.86688pt x 232.61906pt>
 File: fig_pl.png Graphic file (type png)
 <use fig_pl.png>
-Package pdftex.def Info: fig_pl.png  used on input line 71.
+Package pdftex.def Info: fig_pl.png  used on input line 155.
 (pdftex.def)             Requested size: 274.39948pt x 174.46385pt.
 
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 81.
+LaTeX Warning: Reference `tb1' on page 2 undefined on input line 207.
+
+
+LaTeX Warning: Reference `eq1' on page 2 undefined on input line 207.
 
 <fig_tp.png, id=14, 466.74374pt x 286.82156pt>
 File: fig_tp.png Graphic file (type png)
 <use fig_tp.png>
-Package pdftex.def Info: fig_tp.png  used on input line 115.
-(pdftex.def)             Requested size: 275.37642pt x 169.22324pt.
-[2 <./fig_pl.png>]
-Underfull \hbox (badness 1454) in paragraph at lines 134--135
+Package pdftex.def Info: fig_tp.png  used on input line 227.
+(pdftex.def)             Requested size: 266.04669pt x 163.48997pt.
+[2 <./fig_pl.png> <./fig_tp.png>]
+Underfull \hbox (badness 1454) in paragraph at lines 246--247
 []\OT1/ptm/m/n/10 Use over-leaf to write la-tex doc-u-ments on-line with
  []
 
@@ -348,33 +407,36 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3 <./fig_tp.png>] (./conference_101719.aux) ) 
+[3
+
+] (./diff.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3929 strings out of 478994
- 56982 string characters out of 5858184
- 366078 words of memory out of 5000000
- 21382 multiletter control sequences out of 15000+600000
- 439320 words of font info for 97 fonts, out of 8000000 for 9000
+ 5442 strings out of 478994
+ 78513 string characters out of 5858184
+ 412115 words of memory out of 5000000
+ 22877 multiletter control sequences out of 15000+600000
+ 435709 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,11n,74p,713b,257s stack positions out of 5000i,500n,10000p,200000b,80000s
-{f:/texlive/texlive/2021/texmf-di
-st/fonts/enc/dvips/base/8r.enc}<f:/texlive/texlive/2021/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi10.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi6.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi7.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi8.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr6.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr7.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy7.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.p
-fb><f:/texlive/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><f:/te
-xlive/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><f:/texlive/texl
-ive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_101719.pdf (3 pages, 323553 bytes).
+ 68i,9n,74p,715b,267s stack positions out of 5000i,500n,10000p,200000b,80000s
+{f:/texlive/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<f:/texlive/t
+exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><f:/texlive/te
+xlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><f:/texlive/texl
+ive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><f:/texlive/texliv
+e/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><f:/texlive/texlive/2
+021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><f:/texlive/texlive/20
+21/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><f:/texlive/texlive/2021
+/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><f:/texlive/texlive/2021/texmf-dis
+t/fonts/type1/urw/times/utmbi8a.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/t
+ype1/urw/times/utmr8a.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/type1/urw/t
+imes/utmri8a.pfb>
+Output written on diff.pdf (3 pages, 304266 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 59 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

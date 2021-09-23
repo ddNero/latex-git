@@ -66,7 +66,6 @@ After learning some “textbook” knowledge, we studied basic papers and invest
 \subsection{Path Switching}\label{PS}
 In \cite{b2}, it discusses fast-forwarding (mechanism for directing traffic to a specific path in a multipath or to a specific destination in a multidestination environment) by means of path tags.
 ``Fig.~\ref{fig_pl}'' shows how fast-forwarding is done (by skipping FIB table matching).
-
 \begin{figure}[htbp]
 \centerline{\includegraphics[scale=0.75]{fig_pl.png}}
 \caption{Path Switching CCN/NDN forwarding plane.}
@@ -75,27 +74,6 @@ In \cite{b2}, it discusses fast-forwarding (mechanism for directing traffic to a
 
 \subsection{QoE-Aware Multi-Source Video Streaming}
 Article \cite{b3} designs a QoE prediction model for ASDC that relies on scalable video streaming (SVC) based quality adaptive and representational delay effects. The ASDC algorithm considers the delivery of scalable video streams. When active switching occurs, it automatically adapts to each layer in the video stream based on the QoE model that describes the stall effect.
-\begin{equation}\label{eq1}
-\frac{B_{i}\times\left (t_{i}- t_{0}\right)}{B_{w}} \ge \frac{B_{i}\times\left (t_{i}- \theta- t_{0}\right )}{B_{w}}+ \left (l_{k}- \delta\right ) 
-\end{equation}
-\begin{table}[]
-    \centering
-    \caption{List of variables used in the model}
-    \begin{tabular}{|c|c|} \hline
-      Variable & Definition \\ \hline
-      $B_{i}$  & Bit rate of initial layers\\
-      $B_{j}$  & Bit rate of adjusted layers\\
-      $B_{w}$  & Channel bandwidth between the client and the source\\
-      $t_{i}$  & Time at which source is switched\\
-      $t_{0}$  & Video beginning time\\
-      $\theta$  & Duration for which quality is changed\\
-      $l_{k}$  & Stalling duration\\
-      $\delta$ & Extra content in buffer\\ \hline
-    \end{tabular}
-    \label{tb1}
-\end{table}
-
-Table \ref{tb1} shows the meaning of each parameter in the formula\ref{eq1}, which represents the general idea of this article. The left side of the formula represents the original download time, and the right side is the download time after video degradation plus the difference between the lag time and the cached video time. In fact, the download time saved by reducing the enhancement layer to reduce the picture quality and the cached content can offset the video lag time. Therefore, every time the ASDC algorithm detects that the delay may be caused by source switching, it will calculate the corresponding number of adaptive layers to offset the video lag as much as possible
 
 \subsection{NDN Live Video Broadcasting over Wireless LAN}
 Paper \cite{b4} uses WiFi broadcast channel to deliver content from the access point to the user, leader-based mechanism to suppress the user's repeated requests, and receiver-driven rate control and loss recovery.
@@ -112,7 +90,7 @@ Nodes a-e send interest packages prefixed with /test. Node g sends data packages
 When I wrote this script, the main problem that needed to be solved is how to extract the specific content of the output information
 (use grep and awk command combined to extract the required content). Also, this experiment impressed me a lot on how does a router sends and receives interest packets and data packages in NDN.
 \begin{figure}[htbp]
-\centerline{\includegraphics[scale=0.59]{fig_tp.png}}
+\centerline{\includegraphics[scale=0.57]{fig_tp.png}}
 \caption{ Test Topology.}
 \label{fig_tp}
 \end{figure}

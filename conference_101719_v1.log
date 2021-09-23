@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.3)  23 SEP 2021 10:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.3)  23 SEP 2021 10:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**conference_101719.tex
-(./conference_101719.tex
+**conference_101719_v1.tex
+(./conference_101719_v1.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (./IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
@@ -250,8 +250,8 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count276
 \l__pdf_internal_box=\box51
 )
-(./conference_101719.aux)
-\openout1 = `conference_101719.aux'.
+No file conference_101719_v1.aux.
+\openout1 = `conference_101719_v1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
@@ -267,7 +267,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
-
 -- Lines per column: 56 (exact).
 (f:/texlive/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -291,8 +290,16 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
 
+LaTeX Warning: Citation `b1' on page 1 undefined on input line 40.
+
+
+LaTeX Warning: Reference `fig_fp' on page 1 undefined on input line 40.
+
+
+LaTeX Warning: Reference `fig_fm' on page 1 undefined on input line 40.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
 
 (f:/texlive/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -317,23 +324,36 @@ Package pdftex.def Info: fig_fm.png  used on input line 58.
 
 
  <./fig_fp.png> <./fig_fm.png>]
+
+LaTeX Warning: Citation `b2' on page 2 undefined on input line 67.
+
+
+LaTeX Warning: Reference `fig_pl' on page 2 undefined on input line 68.
+
 <fig_pl.png, id=13, 365.86688pt x 232.61906pt>
 File: fig_pl.png Graphic file (type png)
 <use fig_pl.png>
-Package pdftex.def Info: fig_pl.png  used on input line 71.
+Package pdftex.def Info: fig_pl.png  used on input line 70.
 (pdftex.def)             Requested size: 274.39948pt x 174.46385pt.
 
+LaTeX Warning: Citation `b3' on page 2 undefined on input line 76.
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 81.
+
+LaTeX Warning: Citation `b4' on page 2 undefined on input line 79.
+
+
+LaTeX Warning: Citation `b5' on page 2 undefined on input line 83.
+
+
+LaTeX Warning: Reference `fig_tp' on page 2 undefined on input line 87.
 
 <fig_tp.png, id=14, 466.74374pt x 286.82156pt>
 File: fig_tp.png Graphic file (type png)
 <use fig_tp.png>
-Package pdftex.def Info: fig_tp.png  used on input line 115.
-(pdftex.def)             Requested size: 275.37642pt x 169.22324pt.
-[2 <./fig_pl.png>]
-Underfull \hbox (badness 1454) in paragraph at lines 134--135
+Package pdftex.def Info: fig_tp.png  used on input line 93.
+(pdftex.def)             Requested size: 266.04669pt x 163.48997pt.
+[2 <./fig_pl.png> <./fig_tp.png>]
+Underfull \hbox (badness 1454) in paragraph at lines 112--113
 []\OT1/ptm/m/n/10 Use over-leaf to write la-tex doc-u-ments on-line with
  []
 
@@ -348,33 +368,34 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3 <./fig_tp.png>] (./conference_101719.aux) ) 
+[3
+
+] (./conference_101719_v1.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3929 strings out of 478994
- 56982 string characters out of 5858184
- 366078 words of memory out of 5000000
- 21382 multiletter control sequences out of 15000+600000
- 439320 words of font info for 97 fonts, out of 8000000 for 9000
+ 3905 strings out of 478994
+ 56751 string characters out of 5858184
+ 360015 words of memory out of 5000000
+ 21367 multiletter control sequences out of 15000+600000
+ 435603 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,11n,74p,713b,257s stack positions out of 5000i,500n,10000p,200000b,80000s
-{f:/texlive/texlive/2021/texmf-di
-st/fonts/enc/dvips/base/8r.enc}<f:/texlive/texlive/2021/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi10.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi6.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi7.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi8.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr6.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr7.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy7.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.p
-fb><f:/texlive/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><f:/te
-xlive/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><f:/texlive/texl
-ive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_101719.pdf (3 pages, 323553 bytes).
+ 68i,8n,74p,609b,257s stack positions out of 5000i,500n,10000p,200000b,80000s
+{f:/texlive/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<f:/texlive/t
+exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><f:/texlive/tex
+live/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><f:/texlive/texlive/2021/
+texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><f:/texlive/texlive/2021/texmf-dis
+t/fonts/type1/urw/times/utmr8a.pfb><f:/texlive/texlive/2021/texmf-dist/fonts/ty
+pe1/urw/times/utmri8a.pfb>
+Output written on conference_101719_v1.pdf (3 pages, 261138 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 39 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
